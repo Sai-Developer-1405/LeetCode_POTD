@@ -1,6 +1,5 @@
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        # Get the lengths of both input strings
         len_text1, len_text2 = len(text1), len(text2)
       
         # Initialize a 2D array (list of lists) with zeros for dynamic programming
