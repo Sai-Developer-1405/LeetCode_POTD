@@ -15,4 +15,4 @@ class Solution(object):
 
     def calc(self, s):
         return sum(int(c) for c in s)
-        
+
